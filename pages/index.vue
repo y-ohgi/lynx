@@ -1,25 +1,6 @@
 <template>
   <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        lynx
-      </h1>
-      <h2 class="subtitle">
-        My phenomenal Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation</a
-        >
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          >GitHub</a
-        >
-      </div>
-    </div>
+    <b-button>hoge</b-button>
     <a
       href="https://slack.com/oauth/authorize?client_id=4791444239.564820461296&scope=channels:history+channels:read&redirect_uri=http://localhost:3000/api/auth"
     >
@@ -29,12 +10,8 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  components: {}
 }
 </script>
 
