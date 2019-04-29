@@ -20,6 +20,11 @@
         >
       </div>
     </div>
+    <a
+      href="https://slack.com/oauth/authorize?client_id=4791444239.564820461296&scope=channels:history+channels:read&redirect_uri=http://localhost:3000/api/auth"
+    >
+      hoge</a
+    >
   </section>
 </template>
 
